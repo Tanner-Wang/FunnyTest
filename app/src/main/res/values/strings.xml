@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Funny Test</string>
+    <string name="title">Funny Test</string>
+    <string name="introduction">  This is an interesting test game, a total of five questions, quiz questions each question five points, multiple choice questions per question four points, single topic three points per question, answer to the score, wrong not score, out of 22 points!</string>
+    <string name="editText_hint">Your answer</string>
+    <string name="show_answer_before" translatable="false"> </string>
+    <string name="question_1">1. What chicken has no wings?</string>
+    <string name="answer1">Frog</string>
+    <string name="question_2">2. What are the flowers in full bloom all year round?</string>
+    <string name="answer2">Plastic flower</string>
+    <string name="question_3">3. Look at the picture guess the idiom:</string>
+    <string name="answer3">A leaf covering the eyes</string>
+
+    <string name="question_4">4. The green island of the sea(Guess the name of a city):</string>
+    <string name="answer4" translatable="false">B</string>
+    <string name="radio_a">A.ShangHai</string>
+    <string name="radio_b">B.QingDao</string>
+    <string name="radio_c">C.HongKong</string>
+
+    <string name="question_5">5. What are the following historical figures related to this story("visiting fledgling three times") in Chinese history?</string>
+    <string name="answer5" translatable="false">BD</string>
+    <string name="checkbox_a">A.Cao Cao</string>
+    <string name="checkbox_b">B.Zhuge Liang</string>
+    <string name="checkbox_c">C.Shang Yang</string>
+    <string name="checkbox_d">D.Liu Bei</string>
+    <string name="evaluation_1">Congratulations!</string>
+    <string name="evaluation_2">Good!</string>
+    <string name="evaluation_3">Unfortunately!</string>
+    <string name="toast_message">Your correct answers and your scores are respectively :</string>
+    <string name="submit_button">submit</string>
+    <string name="reset_button">reset</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">趣味测试</string>
+    <string name="answer1">田鸡</string>
+    <string name="answer2">塑料花</string>
+    <string name="answer3">一叶障目</string>
+    <string name="checkbox_a">A.曹操</string>
+    <string name="checkbox_b">B.诸葛亮</string>
+    <string name="checkbox_c">C.上海</string>
+    <string name="checkbox_d">D.刘备</string>
+    <string name="evaluation_1">恭喜！</string>
+    <string name="evaluation_2">棒！</string>
+    <string name="evaluation_3">别灰心！</string>
+    <string name="introduction">这是一个有趣的测试游戏，总共分五个问题，问答题每题五分，多选题每题四分，单选题每题三分，答对得分，答错不得分，满分22分！</string>
+    <string name="question_1">1.什么鸡没有翅膀？</string>
+    <string name="question_2">2.一年四季都开的是什么花？</string>
+    <string name="question_3">3.看图猜成语：</string>
+    <string name="question_4">4.海上绿洲（打一城市）：</string>
+    <string name="question_5">5.中国历史上与“三顾茅庐”相关的历史人物是下面哪几个？</string>
+    <string name="radio_a">A.上海</string>
+    <string name="radio_b">B.青岛</string>
+    <string name="radio_c">C.香港</string>
+    <string name="submit_button">提交</string>
+    <string name="toast_message">你答对的题目数和得分：</string>
+    <string name="editText_hint">你的答案...</string>
+    <string name="reset_button">重置</string>
+    <string name="title">趣味测试</string>
+</resources>
