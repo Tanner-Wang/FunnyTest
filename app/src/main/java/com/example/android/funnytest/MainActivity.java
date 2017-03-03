@@ -10,9 +10,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    //How many points the user gets
+    //How many points are the user getting
     int scores = 0;
-    // How many questions the user answers correctly
+    // How many questions are the user answering correctly
     int number = 0;
 
     @Override
@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
      * Display the result of the user doing the test
      */
     public void submitAnswer(View view) {
-        //The result of the test
-        String message;
 
         //Calculate the scores after the user answering the first, the second and the 3th question
         calculateScores();
@@ -53,14 +51,8 @@ public class MainActivity extends AppCompatActivity {
         //Display the correct answer after the user doing the test
         displayAnswers(R.string.answer1, R.string.answer2, R.string.answer3, R.string.answer4, R.string.answer5);
 
-        //Evaluate the performance of the user
-        if (scores >= 18) {
-            message = getResources().getText(R.string.evaluation_1).toString();
-        } else if (scores >= 12) {
-            message = getResources().getText(R.string.evaluation_2).toString();
-        } else {
-            message = getResources().getText(R.string.evaluation_3).toString();
-        }
+        //The result of the test
+        String message = evaluate(scores);
 
         //Display the result of the test with a pop-up message
         CharSequence text = message + "\n" + getResources().getText(R.string.toast_message).toString() + "\n" + number + "\n" + scores;
@@ -77,6 +69,21 @@ public class MainActivity extends AppCompatActivity {
         number = 0;
         //
         displayAnswers(R.string.reset_answer, R.string.reset_answer, R.string.reset_answer, R.string.reset_answer, R.string.reset_answer);
+    }
+
+    /**
+     * Evaluate the performance of the user
+     */
+    private String evaluate(int points) {
+        String message;
+        if (points >= 18) {
+            message = getResources().getText(R.string.evaluation_1).toString();
+        } else if (points >= 12) {
+            message = getResources().getText(R.string.evaluation_2).toString();
+        } else {
+            message = getResources().getText(R.string.evaluation_3).toString();
+        }
+        return message;
     }
 
     /**

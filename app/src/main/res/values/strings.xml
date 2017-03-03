@@ -28,5 +28,6 @@
     <string name="evaluation_3">Unfortunately!</string>
     <string name="toast_message">Your correct answers and your scores are respectively :</string>
     <string name="submit_button">submit</string>
+    <string name="reset_answer" translatable="false"> </string>
     <string name="reset_button">reset</string>
 </resources>
