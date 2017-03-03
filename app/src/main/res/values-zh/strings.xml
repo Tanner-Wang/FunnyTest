@@ -21,7 +21,7 @@
     <string name="radio_b">B.青岛</string>
     <string name="radio_c">C.香港</string>
     <string name="submit_button">提交</string>
-    <string name="toast_message">你答对的题目数和得分：</string>
+    <string name="toast_message">你答对的题目数和得分分别是：</string>
     <string name="editText_hint">你的答案...</string>
     <string name="reset_button">重置</string>
     <string name="title">趣味测试</string>

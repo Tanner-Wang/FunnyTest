@@ -55,10 +55,21 @@ public class MainActivity extends AppCompatActivity {
         String message = evaluate(scores);
 
         //Display the result of the test with a pop-up message
-        CharSequence text = message + "\n" + getResources().getText(R.string.toast_message).toString() + "\n" + number + "\n" + scores;
-        int duration = Toast.LENGTH_LONG;
-        Toast toast = Toast.makeText(this, text, duration);
-        toast.show();
+        String text = message + "\n" + getResources().getText(R.string.toast_message).toString() + "\n" + number + "\n" + scores;
+        showToast(text);
+    }
+
+    /**
+     * Set toast
+     */
+    private static Toast mToast=null;
+    private void showToast(String message){
+        if(mToast==null){
+            mToast=Toast.makeText(this,message,Toast.LENGTH_SHORT);
+        }else{
+            mToast.setText(message);
+        }
+        mToast.show();
     }
 
     /**
